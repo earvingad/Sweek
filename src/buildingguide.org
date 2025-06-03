@@ -1,0 +1,68 @@
+#+title: Sweek building guide
+
+Please do not consider this board suitable for beginners, you need some experience soldering as you will need to solder some jumpers. However, it is not difficult to solder. I recommend using enameled wire of 0.2-0.5 mm.
+
+The board is reversible, but it needs to solder some jumpers for both sides to work correctly. I tried to avoid pin remapping in software as much as possible, but this means that jumpers need to be soldered differently in each side.
+
+* Sweek with encoders and oled
+** USB-C board, encoder and oled display
+The communication is through an USB-C board like [[https://es.aliexpress.com/item/1005005187678366.html][this]]. The reason I chose this is because it is cheap and it is easy to solder.
+
+Follow this picture as reference of how jumpers must solder:
+** 3.3v ONLY ON THE RIGHT SIDE
+Solder the jumper located on the MCU position (JP1). This will serve to route 3.3 V to the right oled display.
+
+** MCU
+In both sides, the RP2040 must always be facing up. This is how the PCB was designed in order to have the RGB led available as layer indicator and easy access to buttons for hard reset and enter boot mode.
+
+Please be aware that pin 2 (GP2) is never in use, so *DO NOT SOLDER PIN 2 (GP2) OF THE RP2040 TO THE BOARD*.
+
+** Pin mapping
+This is how pins are assigned to the columns and rows for each side:
+
+Left side:
+- Rows: GP29, GP28, GP27, GP26.
+- Columns: GP3, GP4, GP5, GP6, GP7.
+
+Right side:
+- Rows: GP3, GP4, GP5, GP6.
+- Columns: GP29, GP28, GP27, GP26, GP15.
+
+Both sides:
+- Encoder: GP10, GP9
+- Encoder switch: GP11
+
+Both sides:
+- Oled SDA: GP12
+- Oled SCL: GP13
+* Diodeless version
+** JUMPER ONLY ON THE RIGHT SIDE
+Solder the jumper located on the MCU position (JP1). This route the pin 2 (GP2) to switch-18 on the right side.
+** USB-C board
+Solder according to the following picture.
+** MCU
+Solder every pin of the MCU (RP2040) except the 3.3 V pin.
+** Pin to switch mapping
+In both sides GP0 (TX) and GP1 (RX) are reserved for communication.
+
+| Left side | Pin  | Switch | Right side | Pin  | Switch |
+|-----------+------+--------+------------+------+--------|
+|           | GP29 | S1     |            | GP3  | S1     |
+|           | GP28 | S2     |            | GP4  | S2     |
+|           | GP27 | S3     |            | GP5  | S3     |
+|           | GP26 | S4     |            | GP6  | S4     |
+|           | GP15 | S5     |            | GP7  | S5     |
+|           | GP14 | S6     |            | GP8  | S6     |
+|           | GP13 | S7     |            | GP9  | S7     |
+|           | GP12 | S8     |            | GP10 | S8     |
+|           | GP11 | S9     |            | GP11 | S9     |
+|           | GP10 | S10    |            | GP12 | S10    |
+|           | GP9  | S11    |            | GP13 | S11    |
+|           | GP8  | S12    |            | GP14 | S12    |
+|           | GP7  | S13    |            | GP15 | S13    |
+|           | GP6  | S14    |            | GP26 | S14    |
+|           | GP5  | S15    |            | GP27 | S15    |
+|           | GP4  | S16    |            | GP28 | S16    |
+|           | GP3  | S17    |            | GP29 | S17    |
+|           | GP2  | S18    |            | GP2  | S18    |
+

@@ -7,11 +7,14 @@ The board is reversible, but it needs to solder some jumpers for both sides to w
 * Sweek with encoders and oled
 ** USB-C board, encoder and oled display
 The communication is through an USB-C board like [[https://es.aliexpress.com/item/1005005187678366.html][this]]. The reason I chose this is because it is cheap and it is easy to solder.
-
 Follow this picture as reference of how jumpers must solder:
+
+Use insulated tape to cover wires when needed. For example, in the right side, I would solder first Rx to D- and in order to avoid shorts, I would cover the jumper (Rx to D-) with insoulation tape and then procced to solder the 5.5 V jumper.  
+[[https://raw.githubusercontent.com/earvingad/Sweek/refs/heads/main/src/JumperWiring.png]]
+
 ** 3.3v ONLY ON THE RIGHT SIDE
 Solder the jumper located on the MCU position (JP1). This will serve to route 3.3 V to the right oled display.
-
+[[https://raw.githubusercontent.com/earvingad/Sweek/refs/heads/main/src/JumperWiring1.png]]
 ** MCU
 In both sides, the RP2040 must always be facing up. This is how the PCB was designed in order to have the RGB led available as layer indicator and easy access to buttons for hard reset and enter boot mode.
 
@@ -38,8 +41,10 @@ Both sides:
 * Diodeless version
 ** JUMPER ONLY ON THE RIGHT SIDE
 Solder the jumper located on the MCU position (JP1). This route the pin 2 (GP2) to switch-18 on the right side.
+[[https://raw.githubusercontent.com/earvingad/Sweek/refs/heads/main/src/JumperWiring1.png]]
 ** USB-C board
 Solder according to the following picture.
+[[https://raw.githubusercontent.com/earvingad/Sweek/refs/heads/main/src/JumperWiringDiodeless.png]]
 ** MCU
 Solder every pin of the MCU (RP2040) except the 3.3 V pin.
 ** Pin to switch mapping

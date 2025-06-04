@@ -1,5 +1,7 @@
 # Sweek
-Sweek is a Ferris/sweep inspired, 36 keys split keyboard. 
+Sweek is a Ferris/sweep inspired, 36 keys split keyboard.
+
+The K in the name comes from it using [KMK](https://github.com/KMKfw/kmk_firmware).
 ![sweek](https://raw.githubusercontent.com/earvingad/Sweek/refs/heads/main/src/sweek.jpeg)
 It features:
 - Reversible PCB with through holes diodes for easy soldering.

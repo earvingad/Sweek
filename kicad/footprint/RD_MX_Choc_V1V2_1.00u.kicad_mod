@@ -1,0 +1,358 @@
+(footprint "RD_MX_Choc_V1V2_1.00u"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "MX keyswitch PCB Mount Keycap 1.00u")
+	(tags "MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.00u")
+	(property "Reference" "REF**"
+		(at 0 -8.2 0)
+		(layer "F.SilkS")
+		(uuid "0d7cb940-d8cc-4377-8f36-fdfed2aefb17")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RD_MX_choc_PCB_1.00u_Reversable"
+		(at 0 8 0)
+		(layer "F.Fab")
+		(uuid "92670a18-7655-4ec7-87fe-f528a60d92a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3fa54cf-3765-42e8-aa8d-75d6d4f88ac6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "27fb71b6-89b7-4e1b-aa43-4e93fb3f4a5a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Text" "${Reference}"
+		(at 0 -8 0)
+		(layer "B.SilkS")
+		(hide yes)
+		(uuid "9ece3ff3-47c0-4138-8751-123923e4882e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -7.1 -7.1)
+		(end 7.1 7.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "fc66b554-19f7-4be1-9ba8-504235feeb95")
+	)
+	(fp_line
+		(start -9.525 9.525)
+		(end 9.525 9.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "8b5db2b5-aac5-4845-8bda-8780abcd28d7")
+	)
+	(fp_line
+		(start 9.525 9.525)
+		(end 9.525 -9.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "a0487ae1-00c9-4b19-997c-c0cdae97147d")
+	)
+	(fp_rect
+		(start -9.525 -9.525)
+		(end 9.525 9.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "76fa8981-e2a4-4735-bbad-3797e2c44ac2")
+	)
+	(fp_rect
+		(start -7 -7)
+		(end 7 7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Eco1.User")
+		(uuid "128cbcd4-775e-44c9-a721-d847489b9f24")
+	)
+	(fp_rect
+		(start -7.25 -7.25)
+		(end 7.25 7.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2f91b69f-2da2-4b1c-a108-3726a9ccde93")
+	)
+	(fp_rect
+		(start -7 -7)
+		(end 7 7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d67b74a4-6faf-4819-b2d5-94ab58d67e6f")
+	)
+	(fp_text user "${Reference}"
+		(at 0 -8.2 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "56c0e033-3755-4032-9c3f-4bafb7089e38")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "c52c8221-694d-4945-9890-5cbfc6d29ccd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -5.49 0)
+		(size 1.9 1.9)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask")
+		(uuid "9d94c096-2743-462b-8237-b97c7f8ae2dc")
+	)
+	(pad "" np_thru_hole circle
+		(at -5.08 0)
+		(size 1.75 1.75)
+		(drill 1.75)
+		(layers "*.Cu" "*.Mask")
+		(uuid "f9f5d695-f169-4e90-a25b-ae7792e50c66")
+	)
+	(pad "" thru_hole circle
+		(at -5 5.15)
+		(size 2 2)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a57c358b-0d56-4186-b390-69c82655cda3")
+	)
+	(pad "" np_thru_hole circle
+		(at 0.01 0)
+		(size 5.05 5.05)
+		(drill 5.05)
+		(layers "*.Cu" "*.Mask")
+		(uuid "5c7a834b-41b3-4e07-a818-82cb2e9e0bcd")
+	)
+	(pad "" thru_hole circle
+		(at 5.01 5.15)
+		(size 2 2)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cfbed88c-6331-4930-86af-763c5507aebc")
+	)
+	(pad "" np_thru_hole circle
+		(at 5.08 0)
+		(size 1.75 1.75)
+		(drill 1.75)
+		(layers "*.Cu" "*.Mask")
+		(uuid "9aef72f9-5c4c-4bea-bf4a-c83df10846b2")
+	)
+	(pad "" np_thru_hole circle
+		(at 5.51 0)
+		(size 1.9 1.9)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask")
+		(uuid "12727832-bbab-4988-a7da-bcc9019fc8ef")
+	)
+	(pad "1" thru_hole circle
+		(at -3.81 2.54)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1f2f43e2-4d50-4857-bce7-594ce3c746a2")
+	)
+	(pad "1" thru_hole circle
+		(at -2.54 5.08 180)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "42cd864c-24fc-4871-b39e-cbee6bf1053e")
+	)
+	(pad "1" thru_hole circle
+		(at 0 -6.5 180)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "86d648ea-bd9b-487c-b206-03d0f90e93d8")
+	)
+	(pad "1" thru_hole circle
+		(at 0.01 -5.9)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "17c603dd-53bf-4998-917d-fedac788aab2")
+	)
+	(pad "2" thru_hole circle
+		(at -4.99 -3.8)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "525d7de5-852d-420b-87f1-9ee0c5f0d86c")
+	)
+	(pad "2" thru_hole circle
+		(at -3.8 -3.8 180)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1497c46c-4ac3-4229-978c-a2b40ff14145")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 5.08)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "66d442cd-6795-4ab0-a7db-211da2be76bd")
+	)
+	(pad "2" thru_hole circle
+		(at 3.8 -3.8 180)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "241808bc-3375-4da7-912c-ec36a78c835c")
+	)
+	(pad "2" thru_hole circle
+		(at 3.81 2.54 180)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5c89474c-b7b9-43a6-93ab-ea007cda959a")
+	)
+	(pad "2" thru_hole circle
+		(at 5 -3.8)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "151f14a6-280f-41fe-b9d1-a7ba217211f4")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Switch_Keyboard/library/3dmodels/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${SCOTTOKEEBS_KIKAD}/3dmodels/ScottoKeebs_Choc.3dshapes/Choc_V2.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+	(model "${SCOTTOKEEBS_KIKAD}/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+	(model "${SCOTTOKEEBS_KIKAD}/3dmodels/ScottoKeebs_CAD.3dshapes/Choc_1.00u_CAD.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 10)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -180 -90)
+		)
+	)
+	(model "${SCOTTOKEEBS_KIKAD}/3dmodels/ScottoKeebs_CAD.3dshapes/MX_1.00u_CAD.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 16.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -180 -0)
+		)
+	)
+)

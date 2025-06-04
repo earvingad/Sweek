@@ -19,7 +19,9 @@ Solder the jumper located on the MCU position (JP1). This will serve to route 3.
 In both sides, the RP2040 must always be facing up. This is how the PCB was designed in order to have the RGB led available as layer indicator and easy access to buttons for hard reset and enter boot mode.
 
 Please be aware that pin 2 (GP2) is never in use, so *DO NOT SOLDER PIN 2 (GP2) OF THE RP2040 TO THE BOARD*.
-
+** Diodes orientation
+Solder diodes to the board. The board has printed the orientation, but take the following picture as reference. Ignore the board (I know it is not a RP2040 in the picture, I was experimenting).
+[[https://raw.githubusercontent.com/earvingad/Sweek/refs/heads/main/src/diodesReference.jpeg]]
 ** Pin mapping
 This is how pins are assigned to the columns and rows for each side:
 

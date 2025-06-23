@@ -16,11 +16,11 @@ Encoder height recommendation:
 Follow this picture as reference of how jumpers must solder. ALWAYS SOLDER FROM THE BACK OF THE PCB:
 
 Use insulated tape to cover wires when needed. For example, in the right side, I would solder first Rx to D- and in order to avoid shorts, I would cover the jumper (Rx to D-) with insulation tape and then proceed to solder the 5.5 V jumper.
-[[./src/JumperWiring_v101.png]]
+[[./JumperWiring_v101.png]]
 ** 3.3v ONLY ON THE RIGHT SIDE
 Solder the jumper located on the MCU position (JP1). This will serve to route 3.3 V to the right oled display.
 #+ATTR_HTML: :width 300px
-[[./src/JumperWiring1_v101.png]]
+[[./JumperWiring1_v101.png]]
 
 ** MCU
 In both sides, the RP2040 must always be facing up. This is how the PCB was designed in order to have the RGB led available as layer indicator and easy access to buttons for hard reset and enter boot mode.
@@ -30,7 +30,7 @@ Please be aware that pin 2 (GP2) is never in use, so *DO NOT SOLDER PIN 2 (GP2) 
 Solder diodes to the board, you can choose between SMD diodes (SOD-123) or through hole diodes, just make sure they are 1N4148
 
 The board has printed the orientation, but take the following picture as reference. Ignore the MCU (I know it is not a RP2040 in the picture, I was experimenting).
-[[./src/diodesReference.jpeg]]
+[[./diodesReference.jpeg]]
 ** Pin mapping
 This is how pins are assigned to the columns and rows for each side:
 
@@ -52,12 +52,12 @@ Both sides:
 * Diodeless version
 ** USB-C board
 Solder according to the following picture.
-[[./src/JumperWiringDiodeless_v101.png]]
+[[./JumperWiringDiodeless_v101.png]]
 ** JUMPERS
 Compared to v1.0.0, in the new v1.0.1, the GND net is now part of the fill zone. In order to make it possible, two additional jumpers for GND and GP1 were added. Solder the GND and GP1 (RX) jumpers accordingly to each side.
 
 ONLY ON RIGHT SIDE, solder the jumper located on the MCU position (JP1). This route the pin 2 (GP2) to switch-18 on the right side.
-[[./src/JumperWiringDiodeless1_v101.png]]
+[[./JumperWiringDiodeless1_v101.png]]
 ** MCU
 Solder every pin of the MCU (RP2040) to the board, except the 3.3 V pin.
 ** Pin to switch mapping

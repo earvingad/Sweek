@@ -11,4 +11,4 @@ It features:
 - Communication is through USB-C (using a pair of small USB-C boards available, since I wanted as easiest to solder as possible).
 - There is also a diodeless version.
 
-Please see the [Building guide](https://github.com/earvingad/Sweek/blob/main/src/buildingguide.org).
+Please see the [Building guide for v1.0.1](./src/buildingguide_v101.org).

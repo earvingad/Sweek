@@ -3972,7 +3972,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "Redragon:Diode_DO-35_SOD-123"
 			(at 83.82 86.36 0)
 			(effects
 				(font
@@ -4060,7 +4060,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "Redragon:Diode_DO-35_SOD-123"
 			(at 71.12 66.04 0)
 			(effects
 				(font
@@ -4146,7 +4146,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_custom"
 			(at 215.9 105.918 0)
 			(effects
 				(font
@@ -4216,7 +4216,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "Redragon:Diode_DO-35_SOD-123"
 			(at 109.22 86.36 0)
 			(effects
 				(font
@@ -4302,7 +4302,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_custom"
 			(at 156.21 74.168 0)
 			(effects
 				(font
@@ -4501,7 +4501,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm_custom"
 			(at 161.29 100.33 0)
 			(effects
 				(font
@@ -4703,7 +4703,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "Redragon:Diode_DO-35_SOD-123"
 			(at 109.22 66.04 0)
 			(effects
 				(font
@@ -4791,7 +4791,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm_custom"
 			(at 234.95 88.9 0)
 			(effects
 				(font
@@ -4997,7 +4997,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "Redragon:Diode_DO-35_SOD-123"
 			(at 96.52 45.72 0)
 			(effects
 				(font
@@ -5159,7 +5159,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm_custom"
 			(at 219.71 119.38 0)
 			(effects
 				(font
@@ -5229,7 +5229,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm_custom"
 			(at 237.49 88.9 0)
 			(effects
 				(font
@@ -5497,7 +5497,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_custom"
 			(at 156.21 76.708 0)
 			(effects
 				(font
@@ -5633,7 +5633,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm_custom"
 			(at 219.71 121.92 0)
 			(effects
 				(font
@@ -5703,7 +5703,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "Redragon:Diode_DO-35_SOD-123"
 			(at 83.82 66.04 0)
 			(effects
 				(font
@@ -5791,7 +5791,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "Redragon:Diode_DO-35_SOD-123"
 			(at 118.11 109.22 0)
 			(effects
 				(font
@@ -5879,7 +5879,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "Redragon:Diode_DO-35_SOD-123"
 			(at 109.22 45.72 0)
 			(effects
 				(font
@@ -6035,7 +6035,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "Redragon:Diode_DO-35_SOD-123"
 			(at 71.12 86.36 0)
 			(effects
 				(font
@@ -6123,7 +6123,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "Redragon:Diode_DO-35_SOD-123"
 			(at 71.12 45.72 0)
 			(effects
 				(font
@@ -6277,7 +6277,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm_custom"
 			(at 219.71 124.46 0)
 			(effects
 				(font
@@ -6623,7 +6623,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "Redragon:Diode_DO-35_SOD-123"
 			(at 105.41 109.22 0)
 			(effects
 				(font
@@ -6779,7 +6779,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "Redragon:Diode_DO-35_SOD-123"
 			(at 96.52 66.04 0)
 			(effects
 				(font
@@ -7080,7 +7080,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "Redragon:Diode_DO-35_SOD-123"
 			(at 83.82 45.72 0)
 			(effects
 				(font
@@ -7232,7 +7232,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "Redragon:Diode_DO-35_SOD-123"
 			(at 96.52 86.36 0)
 			(effects
 				(font
@@ -7320,7 +7320,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "Redragon:Diode_DO-35_SOD-123"
 			(at 58.42 86.36 0)
 			(effects
 				(font
@@ -7406,7 +7406,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm_custom"
 			(at 161.29 105.41 0)
 			(effects
 				(font
@@ -7476,7 +7476,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "Redragon:Diode_DO-35_SOD-123"
 			(at 58.42 45.72 0)
 			(effects
 				(font
@@ -7630,7 +7630,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm_custom"
 			(at 248.92 59.69 0)
 			(effects
 				(font
@@ -7698,7 +7698,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_custom"
 			(at 156.21 69.088 0)
 			(effects
 				(font
@@ -7836,7 +7836,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "Redragon:Diode_DO-35_SOD-123"
 			(at 92.71 109.22 0)
 			(effects
 				(font
@@ -7922,7 +7922,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm_custom"
 			(at 215.9 99.06 0)
 			(effects
 				(font
@@ -7990,7 +7990,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm_custom"
 			(at 215.9 101.6 0)
 			(effects
 				(font
@@ -8058,7 +8058,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm_custom"
 			(at 215.9 106.68 0)
 			(effects
 				(font
@@ -8194,7 +8194,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_custom"
 			(at 156.21 71.628 0)
 			(effects
 				(font
@@ -8400,7 +8400,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "Redragon:Diode_DO-35_SOD-123"
 			(at 58.42 66.04 0)
 			(effects
 				(font

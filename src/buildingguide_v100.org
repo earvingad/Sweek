@@ -1,4 +1,4 @@
-#+title: Sweek v 1.0.0 building guide
+#+title: Sweek v1.0.0 building guide
 
 Please do not consider this board suitable for beginners, you need some experience soldering as you will need to solder some jumpers. However, it is not difficult to solder. I recommend using enameled wire of 0.2-0.5 mm.
 

@@ -1,1 +1,1 @@
-Please see the [Building guide](https://github.com/earvingad/Sweek/blob/main/src/buildingguide.org).
+Please see the [Building guide](/src/buildingguide_v101.org).

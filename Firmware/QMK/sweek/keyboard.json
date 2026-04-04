@@ -34,6 +34,13 @@
         "serial": {
             "driver": "vendor"
         },
+        "encoder": {
+            "right": {
+                "rotary": [
+                    {"pin_a": "GP9", "pin_b": "GP10"}
+                ]
+            }
+        },
         "matrix_pins": {
             "right": {
                 "cols": ["GP15", "GP26", "GP27", "GP28", "GP29"],
